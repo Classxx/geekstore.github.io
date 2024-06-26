@@ -42,7 +42,7 @@
 
 
 
-button{
+.button_games{
     display: flex;
     height: 55px;
     justify-content: center;
@@ -80,3 +80,107 @@ button{
 
 
 
+
+
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    border-radius: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0f1a24;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    color: white;
+    font-size: 30px;
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: transparent;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.trigger{
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  background-color: transparent;
+  font-family: MagnetTrial;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  border: 1;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: white;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+button img{
+  align-self: center;
+  margin-right: auto;
+  margin-left: 10px;
+  height: 36px;
+  width: 36px;
+  border: 0.5px white;
+  border-radius: 100px;
+  border-color: white;
+  box-shadow: 0 0 7px #666;
+
+}
+
+button span{
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+.active-inactive_button{
+  margin-right: 20px;
+  margin-left: 20px;
+  display: block;
+  height: 30px;
+  justify-content: center;
+  background-color: transparent;
+  font-family: MagnetTrial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  border: 1;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
