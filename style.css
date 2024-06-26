@@ -12,6 +12,8 @@
 .text-field__input {
     display: block;
     width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
     font-family: MagnetTrial;
@@ -34,7 +36,6 @@
 button{
     display: flex;
     height: 55px;
-
     justify-content: center;
     background-color: transparent;
     font-family: MagnetTrial;
@@ -53,12 +54,13 @@ button{
     align-self: center;
     margin-right: auto;
     margin-left: 10px;
-    height: 4px;
-    width: 4px;
+    height: 36px;
+    width: 36px;
     border: 0.5px white;
     border-radius: 100px;
     border-color: white;
     box-shadow: 0 0 7px #666;
+
   }
   
   button span{
