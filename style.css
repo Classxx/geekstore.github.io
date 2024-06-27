@@ -96,14 +96,13 @@
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 .modal-content {
-    border-radius: 22px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #0f1a24;
     padding: 1rem 1.5rem;
-    width: 24rem;
+    width: 90%; /* 24rem */
     border-radius: 0.5rem;
 }
 .close-button {
@@ -166,8 +165,6 @@ button span{
 
 
 .active-inactive_button{
-  margin-right: 20px;
-  margin-left: 20px;
   display: block;
   height: 30px;
   justify-content: center;
@@ -178,7 +175,7 @@ button span{
   line-height: 1.5;
   color: white;
   border: 1;
-  border-radius: 5px;
+  border-radius: 7px;
   border-width: 1px;
   border-color: white;
   margin-bottom: 5px;
