@@ -180,4 +180,5 @@ button span{
   border-color: white;
   margin-bottom: 5px;
   text-transform: capitalize;
+  line-height: 1;
 }
