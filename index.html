@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>ZLT Shop</title>
     <link rel="stylesheet" href="style.css" />
-    <nav style="width:100%; max-width: 93%;"><div style="width: 99%; margin-top: 15px;"><input class="text-field__input" type="text" name="search" id="search" placeholder="👀Поиск.." value=""></div></nav>
     
+    <div style="display: flex; width: 100%;"><input class="text-field__input" type="text" name="search" id="search" placeholder="👀Поиск.." value=""></div>
 
     <h2 style="padding-left: 5px; font-family: MagnetTrial; color: white; align-items: center; justify-content: center; text-align: left; line-height: 0.5">Выберите игру/сервис</h2>
 </head>
@@ -24,47 +24,17 @@
 
                 <h2><img src="assets/games/codm/shopcheck.jpg" alt="" style="width: 100%; height: 90%; margin-top: 15px; margin-bottom: -15px"></h2>
 
-                <h3 style="font-family: MagnetTrial; color: white; font-size: 15px">
+                <h3 style="font-family: MagnetTrial; color: white; font-size: 14px">
                     Ваш магазин активен или как на картинке выше?
                 </h3>
 
                 <hr style="margin-top: -5px; margin-bottom: 10px;">
 
-                <button class="active-inactive_button" style="align-self:flex-start; float: left; width: 150px; height: 40px; margin-left: 20px;">Активен</button>
-                <button class="active-inactive_button" style="align-self:flex-start; float: right;  width: 150px; height: 40px; margin-right: 20px; margin-left: -5px; line-height: 0.9em;"">Как на картинке</button>
+                <button onclick="window.location.href='site-branches/codmactive.html'" class="active-inactive_button" style="align-self:flex-start; float: left; width: 150px; height: 40px; margin-left: 20px;">Активен</button>
+                <button onclick="window.location.href='site-branches/codminactive.html'" class="active-inactive_button" style="align-self:flex-start; float: right;  width: 150px; height: 40px; margin-right: 20px; margin-left: -20px; line-height: 0.9em;"">Как на картинке</button>
                 
             </div>
         </div>
-
-        <button style="width: 100%; visibility: visible;" id="codwz" class="button_games">
-            <img src="assets/games/warzone/warzone.jpg" class="imgstyle">
-            <span>call of duty: warzone</span>
-        </button>
-
-
-        <button style="width: 100%; visibility: visible;" id="lolwr" class="button_games">
-            <img src="assets/games/wildrift/wildrift.jpg" class="imgstyle">
-            <span>league of legends: wild rift</span>
-        </button>
-
-
-        <button style="width: 100%; visibility: visible;" id="diabloimm" class="button_games">
-            <img src="assets/games/diablo/diablo.jpg" class="imgstyle">
-            <span>diablo immortal</span>
-        </button>
-
-
-        <button style="width: 100%; visibility: visible;" id="looney" class="button_games">
-            <img src="assets/games/discord/discord.jpg" class="imgstyle">
-            <span>discord</span>
-        </button>
-
-
-        <button style="width: 100%; visibility: visible;" id="codm" class="button_games">
-            <img src="assets/games/codm/codm.jpg" class="imgstyle">
-            <span>call of duty: mobile</span>
-        </button>
-
 
         <button style="width: 100%; visibility: visible;" id="codwz" class="button_games">
             <img src="assets/games/warzone/warzone.jpg" class="imgstyle">
