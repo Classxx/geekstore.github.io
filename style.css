@@ -7,6 +7,10 @@
     src: url(assets/fonts/MagnetTrial-Bold.ttf);
 }
 
+/** {
+  outline: 1px solid green !important;
+}
+*/
 
 ::placeholder {
   color:    #31363b;
@@ -16,8 +20,6 @@
 .text-field__input {
     display: flex;
     width: 100%;
-    margin-right: 5px;
-    margin-left: 5px;
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
     font-family: MagnetTrial;
@@ -204,8 +206,8 @@ button span{
 /* Карточка товара */
 
 .card {
-  width: 180px;
-  height: 180px;
+  width: 159px;
+  height: 159px;
   min-height: 10px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -298,31 +300,6 @@ button span{
   color: #bfbfbf;
 }
 
-.card__price--common {
-  font-weight: 400;
-  font-size: 17px;
-  color: #606060;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: flex-end;
-}
-
-.card__price--common::before {
-  content: "Обычная";
-  font-weight: 400;
-  font-size: 13px;
-  color: #bfbfbf;
-}
-
-.card__title {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 150%;
-  color: #414141;
-}
-
 .card__title:hover {
   color: #ff6633;
 }
@@ -339,7 +316,7 @@ button span{
   border-radius: 4px;
   cursor: pointer; /* Меняем курсор при наведении */
   transition: 0.2s;
-  margin-top: auto; /* Прижимаем кнопку к низу карточки */
+  margin-top: px; /* Прижимаем кнопку к низу карточки */
 }
 
 .card__add:hover {
@@ -360,9 +337,20 @@ button span{
   max-width: 1000px; /* Ширина grid-контейнера */
   justify-content: center;
   justify-items: center; /* Размещаем карточку по центру */
-  column-gap: 30px; /* Отступ между колонками */
-  row-gap: 40px; /* Отступ между рядами */
+  column-gap: 5px; /* Отступ между колонками */
+  row-gap: 100px; /* Отступ между рядами */
   margin: 0 auto;
 }
 
 /* сетка товара */
+
+
+
+
+
+
+
+
+
+
+
