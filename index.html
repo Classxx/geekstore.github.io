@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>ZLT Shop</title>
     <link rel="stylesheet" href="style.css" />
-    
-    <div style="display: flex; width: 100%;"><input style="padding-left: 10px;" class="text-field__input" type="text" id="gameslist" placeholder="👀Поиск.." value=""></div>
-
-    <h2 style="padding-left: 5px; font-family: MagnetTrial; color: white; align-items: center; justify-content: center; text-align: left; line-height: 0.5;">Выберите игру/сервис</h2>
 </head>
-<body style="background-color: #102030;">
+
+
+<body style="background-color: #102030; margin-left: 5px; margin-right: 5px; margin-top: 5px;">
+
+    <header>
+        <div style="display: flex; width: 100%;">
+            <input style="padding-left: 10px;" class="text-field__input" type="text" id="gameslist" placeholder="👀Поиск.." value="">
+        </div>
+    </header>
+
+    <div>
+        <h2 style="padding-left: 5px; font-family: MagnetTrial; color: white; align-items: center; justify-content: center; text-align: left; line-height: 0.5;">Выберите игру/сервис</h2>
+    </div>
+
     <div id="main" class="container">
         
 
@@ -119,7 +128,8 @@
             Ваш магазин активен или как на картинке выше?
         </h3>
 
-        <hr style="margin-top: -5px; margin-bottom: 10px;">
+
+        <hr style="margin-top: -5px; margin-bottom: 10px">
 
         <button onclick="window.location.href='site-branches/codmactive.html'" class="active-inactive_button" style="align-self:flex-start; float: left; width: 150px; height: 40px; margin-left: 20px;">Активен</button>
         <button onclick="window.location.href='site-branches/codminactive.html'" class="active-inactive_button" style="align-self:flex-start; float: right;  width: 150px; height: 40px; margin-right: 20px; margin-left: -20px; line-height: 0.9em;"">Как на картинке</button>
