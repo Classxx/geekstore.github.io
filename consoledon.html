@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ZLT Shop</title>
+    <link rel="stylesheet" href="style.css" />
+
+    
+</head>
+
+
+<body>
+
+
+    <div class="navbar" style="margin-left: -5px;">
+        <div class="flex-fill" style="width: 100%;">
+            <a href="index.html" class="flex-fill"><img src="assets/svgs/phone.png" alt="" style="height: 35px; width: 35px;"></a>
+        </div>
+        <div class="flex-fill" style="width: 100%;">
+            <a href="consoledon.html" class="active" class="flex-fill"><img src="assets/svgs/console.png" alt="" style="height: 35px; width: 35px;"></a>
+        </div>
+        <div class="flex-fill" style="width: 100%;">
+            <a href="pcdon.html" class="flex-fill"><img src="assets/svgs/pc.png" alt="" style="height: 35px; width: 35px;"></a>
+        </div>
+        <div class="flex-fill" style="width: 100%;">
+            <a href="cart.html" class="flex-fill"><img src="assets/svgs/cart.svg" alt="" style="height: 35px; width: 35px;"></a>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    <header>
+        <div style="display: flex; width: 100%;">
+            <input class="text-field__input" type="text" id="consolegameslist" placeholder="👀Поиск.." value="">
+        </div>
+    </header>
+
+    <div>
+        <h2 style="padding-left: 5px; font-family: MagnetTrial; color: white; align-items: center; justify-content: center; text-align: left; line-height: 0.5;">Выберите сервис</h2>
+    </div>
+
+    <div id="main" class="container">
+        
+
+        <ul class="consolegameslist" style="width: 100%; padding-left: 0;">
+            <li style="width: 100%; height: 100%; list-style-type: none;">
+                <button style="width: 100%; visibility: visible;" id="playstation" class="button_games">
+                <img src="assets/games/playstation/playstation.jpg" class="imgstyle">
+                <span>Playstation</span>
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" style="width: 20px; height: 20px; margin-top: auto; margin-bottom:auto">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier"> <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+                </svg>
+                </button>
+            </li>
+
+            <li style="width: 100%; height: 100%; list-style-type: none;">
+                <button style="width: 100%; visibility: visible;" id="playstation" class="button_games">
+                <img src="assets/games/xbox/xbox.png" class="imgstyle">
+                <span>Xbox</span>
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" style="width: 20px; height: 20px; margin-top: auto; margin-bottom:auto">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier"> <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+                </svg>
+                </button>
+            </li>
+
+
+        </ul>
+
+        <div class="modal">
+            <div class="modal-content">
+                <h1 style="font-family: MagnetTrial_bold; color: red; text-align: center; align-self: center; margin: auto; font-size: 20px; margin-bottom: -25px;" >! ВАЖНО !</h1>
+                <span class="close-button">×</span>
+        
+                <h2><img src="assets/games/codm/shopcheck.jpg" alt="" style="width: 100%; height: 90%; margin-top: 15px; margin-bottom: -15px"></h2>
+        
+                <h3 style="font-family: MagnetTrial; color: white; font-size: 14px">
+                    Ваш магазин активен или как на картинке выше?
+                </h3>
+        
+                <hr style="margin-top: -5px; margin-bottom: 10px;">
+        
+                <button onclick="window.location.href='site-branches/codmactive.html'" class="active-inactive_button" style="align-self:flex-start; float: left; width: 150px; height: 40px; margin-left: 20px;">Активен</button>
+                <button onclick="window.location.href='site-branches/codminactive.html'" class="active-inactive_button" style="align-self:flex-start; float: right;  width: 150px; height: 40px; margin-right: 20px; margin-left: -20px; line-height: 0.9em;"">Как на картинке</button>
+                
+            </div>
+            </div>
+    </div>
+
+
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+
+<div class="modal">
+    <div class="modal-content">
+        <h1 style="font-family: MagnetTrial_bold; color: red; text-align: center; align-self: center; margin: auto; font-size: 20px; margin-bottom: -25px;" >! ВАЖНО !</h1>
+        <span class="close-button">×</span>
+
+        <h2><img src="assets/games/codm/shopcheck.jpg" alt="" style="width: 100%; height: 90%; margin-top: 15px; margin-bottom: -15px"></h2>
+
+        <h3 style="font-family: MagnetTrial; color: white; font-size: 14px">
+            Ваш магазин активен или как на картинке выше?
+        </h3>
+
+
+        <hr style="margin-top: -5px; margin-bottom: 10px">
+        <div style="display: inline-flex; margin-left: 10px; margin-right: 10px; row-gap: 10px;">
+            <button onclick="window.location.href='site-branches/codmactive.html'" class="active-inactive_button" style="float: left; width: 150px; height: 40px; margin-left: 20px;">Активен</button>
+            <button onclick="window.location.href='site-branches/codminactive.html'" class="active-inactive_button" style="float: right;  width: 150px; height: 40px; margin-right: 20px; margin-left: -20px; line-height: 0.9em;"">Как на картинке</button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</html>
+
