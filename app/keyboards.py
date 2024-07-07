@@ -11,6 +11,10 @@ main = ReplyKeyboardMarkup(keyboard=[
 
 settings = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Каталог', web_app=WebAppInfo(url="https://classxx.github.io/geekstore.github.io/"))],
-    [InlineKeyboardButton(text='Наш канал', url='https://t.me/geekstore'), InlineKeyboardButton(text='Связь с оператором', url='https://t.me/geekstore_support')],
-    [InlineKeyboardButton(text='Отзывы', url='https://t.me/geekstore_community/240')]
+    [InlineKeyboardButton(text='Наш канал', url='https://t.me/DonatotPolinaZoLoTaYa'), InlineKeyboardButton(text='Связь с оператором', url='https://t.me/ZLT_support')],
+    [InlineKeyboardButton(text='Отзывы', callback_data='reviews')]
+    ])
+
+reviews_kb = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='Назад', callback_data='goback_from_reviews')]
     ])
