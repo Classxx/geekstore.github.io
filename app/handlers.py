@@ -27,5 +27,6 @@ async def catalog(callback: CallbackQuery):
 @router.callback_query(F.data == 'goback_from_reviews')
 async def goback(callback: CallbackQuery):
     await callback.answer()
+    await callback.message.photo
     await callback.message.edit_text('''Рады приветствовать вас в ZLT SHOP!
 Нажмите на кнопку "Каталог" чтобы попасть на страницу с актуальными предложениями.''', reply_markup=kb.settings)
