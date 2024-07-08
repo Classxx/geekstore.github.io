@@ -16,9 +16,10 @@ trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 
-let tg = window.Telegram.WebApp; 
+//-----------------------------------------------------------------------------------------
 
-let userid = tg.initDataUnsafe.user.id;
+let tg = window.Telegram.WebApp; 
+let userid = tg.initDataUnsafe.user.id.value;
 
 //-----------------------------------------------------------------------------------------
 
