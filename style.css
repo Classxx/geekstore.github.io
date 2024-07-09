@@ -251,7 +251,7 @@ button span{
   align-content: stretch;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 50px;
+  row-gap: 60px;
   column-gap: 35px;
   padding-top: 20px;
 }.container-items{
