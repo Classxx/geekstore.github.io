@@ -412,5 +412,6 @@ button span{
   row-gap: 500px;
   list-style-type: none;
 }.goodsli{
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+  display: inline-block;
 }
