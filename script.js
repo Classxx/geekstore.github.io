@@ -25,11 +25,11 @@ let userid = tg.initDataUnsafe.user.id.value;
 
 
  
-document.querySelector('#mobilegameslist').oninput = function(){
+document.querySelector('text_field_input').oninput = function(){
     let val = this.value.trim();
-    let mobilegameslistItems = document.querySelectorAll('.mobilegameslist li');
+    let elasticItems = document.querySelectorAll('.games li');
     if (val != ''){
-        mobilegameslistItems.forEach(function(elem){
+        elasticItems.forEach(function(elem){
             if (elem.innerText.search(val) == -1){
                 elem.classList.add('hide');
             }
@@ -40,7 +40,7 @@ document.querySelector('#mobilegameslist').oninput = function(){
 
     }
     else {
-        mobilegameslistItems.forEach(function(elem){
+        elasticItems.forEach(function(elem){
             elem.classList.remove('hide');
         });
     }
@@ -51,64 +51,6 @@ document.querySelector('#mobilegameslist').oninput = function(){
 //-----------------------------------------------------------------------------------------
 
 
- 
-document.querySelector('#consolegameslist').oninput = function(){
-    let val = this.value.trim();
-    let consolegameslistItems = document.querySelectorAll('.consolegameslist li');
-    if (val != ''){
-        consolegameslistItems.forEach(function(elem){
-            if (elem.innerText.search(val) == -1){
-                elem.classList.add('hide');
-            }
-            else {
-                elem.classList.remove('hide');
-            }
-        });
-
-    }
-    else {
-        consolegameslistItems.forEach(function(elem){
-            elem.classList.remove('hide');
-        });
-    }
-}
-
-
-
-
-//-----------------------------------------------------------------------------------------
-
-
- 
-document.querySelector('#pcgameslist').oninput = function(){
-    let val = this.value.trim();
-    let pcgameslistItems = document.querySelectorAll('.pcgameslist li');
-    if (val != ''){
-        pcgameslistItems.forEach(function(elem){
-            if (elem.innerText.search(val) == -1){
-                elem.classList.add('hide');
-            }
-            else {
-                elem.classList.remove('hide');
-            }
-        });
-
-    }
-    else {
-        pcgameslistItems.forEach(function(elem){
-            elem.classList.remove('hide');
-        });
-    }
-}
-
-
-
-
-
-//-----------------------------------------------------------------------------------------
-
-
- 
 
 
 
