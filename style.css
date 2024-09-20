@@ -385,5 +385,32 @@ button span{
 }
 
 
+.infobutton_container{
+  position: relative;
+}.infobutton {
+  background-color: white;
+  border-radius: 35%;
+  padding-left: 7px; 
+  padding-right: 7px; 
+  position: absolute; 
+  top: 5px; 
+  left: 110px;
+  color:#8400ff;
+  border-color: #8400ff;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+}.infolink{
+  padding: 0px;
+  text-decoration: none;
+}
 
 
+.goodsul{
+  width: 100%; 
+  columns: 2; 
+  row-gap: 500px;
+  list-style-type: none;
+}.goodsli{
+  margin-bottom: 60px;
+}

@@ -1,5 +1,5 @@
 import asyncio
-import logging # включить на проде
+import logging # выключить на проде
 
 from aiogram import Bot, Dispatcher
 
@@ -12,8 +12,6 @@ dp = Dispatcher()
 
 
 
-
-
 async def main():
     dp.include_router(router)
     await dp.start_polling(bot)
@@ -21,12 +19,8 @@ async def main():
 
 
 
-
-
-
-
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO) # включить на проде
+    logging.basicConfig(level=logging.INFO) # выключить на проде
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
