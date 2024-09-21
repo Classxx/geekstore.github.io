@@ -239,7 +239,16 @@ button span{
 
 /*-----------------------------------------------------------*/
 
-.avaible-donat_container {
+.goodsul{
+  width: 100%; 
+  columns: 2; 
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}.goodsli{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}.avaible-donat_container {
   display: flex;
   align-content: stretch;
   flex-wrap: wrap;
@@ -248,9 +257,9 @@ button span{
   column-gap: 35px;
   padding-top: 20px;
 }.container-items{
-  display: block;
+  display: inline-block;
   width: 140px;
-  height: 115px;
+  height: 185px;
   background-color: transparent;
   border-radius: 15px;
   color: white;
@@ -399,14 +408,3 @@ button span{
 }
 
 
-.goodsul{
-  width: 100%; 
-  columns: 2; 
-  row-gap: 500px;
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-}.goodsli{
-  margin-bottom: 100px;
-  display: inline-block;
-}
