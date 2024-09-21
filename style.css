@@ -405,13 +405,13 @@ button span{
   padding-left: 7px; 
   padding-right: 7px; 
   position: absolute; 
-  top: 5px; 
-  left: 100px;
+  top: 8px; 
+  left: 95px;
   color:#8400ff;
   border-color: #8400ff;
   text-decoration: none;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }.infolink{
   padding: 0px;
   text-decoration: none;
