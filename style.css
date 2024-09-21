@@ -246,9 +246,12 @@ button span{
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
+  
 }.goodsli{
   padding-bottom: 0px;
   margin-bottom: -40px;
+  
+  
 }.goodsli:last-child{
   margin-bottom: -15px;
 }.avaible-donat_container {
@@ -259,7 +262,9 @@ button span{
   row-gap: 60px;
   column-gap: 35px;
   padding-top: 20px;
+  
 }.container-items{
+  
   display: inline-block;
   width: 140px;
   height: 185px;
@@ -269,10 +274,12 @@ button span{
   font-family: MagnetTrial;
   object-fit: contain;
 }.label_card{
+  
   flex: 0 0 220px;
   overflow: hidden;
   margin-top: 5px;
 }.card__label {
+  
   padding: 4px 8px;
   bottom: 10px;
   left: 10px;
@@ -399,7 +406,7 @@ button span{
   padding-right: 7px; 
   position: absolute; 
   top: 5px; 
-  left: 110px;
+  left: 100px;
   color:#8400ff;
   border-color: #8400ff;
   text-decoration: none;
