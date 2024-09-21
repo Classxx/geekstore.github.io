@@ -240,6 +240,7 @@ button span{
 /*-----------------------------------------------------------*/
 
 .goodsul{
+  display:contents;
   width: 100%; 
   columns: 2; 
   list-style-type: none;
@@ -247,7 +248,9 @@ button span{
   margin-right: auto;
 }.goodsli{
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -40px;
+}.goodsli:last-child{
+  margin-bottom: -15px;
 }.avaible-donat_container {
   display: flex;
   align-content: stretch;
