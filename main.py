@@ -10,8 +10,6 @@ from app.handlers import router
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-
-
 async def main():
     dp.include_router(router)
     await dp.start_polling(bot)
@@ -20,6 +18,7 @@ async def main():
 
 
 if __name__ == "__main__":
+    
     logging.basicConfig(level=logging.INFO) # выключить на проде
     try:
         asyncio.run(main())

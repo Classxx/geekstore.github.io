@@ -47,6 +47,9 @@ document.querySelector('text_field_input').oninput = function(){
 }
 
 
+const tele = window.Telegram.WebApp;
+tele.expand();
+
 
 //-----------------------------------------------------------------------------------------
 

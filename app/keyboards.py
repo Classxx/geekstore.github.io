@@ -1,6 +1,5 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 
-
 main = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text='Открыть магазин')],
     [KeyboardButton(text='Связаться с оператором')]
@@ -18,3 +17,4 @@ settings = InlineKeyboardMarkup(inline_keyboard=[
 reviews_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Назад', callback_data='goback_from_reviews')]
     ])
+
