@@ -1,6 +1,10 @@
+const tele = window.Telegram.WebApp;
+tele.expand();
+
 var modal = document.querySelector(".modal");
 var trigger = document.querySelector(".trigger");
 var closeButton = document.querySelector(".close-button");
+
 
 function toggleModal() {
     modal.classList.toggle("show-modal");
@@ -47,8 +51,6 @@ document.querySelector('text_field_input').oninput = function(){
 }
 
 
-const tele = window.Telegram.WebApp;
-tele.expand();
 
 
 //-----------------------------------------------------------------------------------------
