@@ -1,13 +1,17 @@
-from aiogram import Router, F
+from aiogram import Router, F, types
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
+import main
+from aiogram.types import InputFile
 
-import app.keyboards as kb
+
+import keyboards as kb
 
 router = Router()
 
+
 @router.message(CommandStart())
-async def cmd_start(message: Message):
+async def cmd_start(message: types.Message):
     await message.answer(
         '''Рады приветствовать вас в ZLT SHOP!
 Нажмите на кнопку "Каталог" чтобы попасть на страницу с актуальными предложениями.''', reply_markup=kb.settings)
