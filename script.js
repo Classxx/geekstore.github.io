@@ -1,13 +1,13 @@
-let tg = window.Telegram;
+let tg1 = window.Telegram;
   
-if(tg != undefined){
-  if (tg.WebApp != undefined && tg.WebApp.initData != undefined);
+if(tg1 != undefined){
+  if (tg1.WebApp != undefined && tg1.WebApp.initData != undefined);
    
-  let safe = tg.WebApp.initData;
+  let safe = tg1.WebApp.initData;
   
-  tg.WebApp.backgroundColor = '#3d3d3d';
-  tg.WebApp.headerColor = '#212121';
-  tg.WebApp.expand(); }
+  tg1.WebApp.backgroundColor = '#3d3d3d';
+  tg1.WebApp.headerColor = '#212121';
+  tg1.WebApp.expand(); }
 //-----------------------------------------------------------------------------------------
 var modal = document.querySelector(".modal");
 var trigger = document.querySelector(".trigger");
